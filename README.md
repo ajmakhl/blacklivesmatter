@@ -1,8 +1,12 @@
 # Black Lives Matter
 
-I made this small component that allows your viewers to visit a page dedicated to helping the cause picked randomly by a list. The goal is to have a central point where people can get information faster.
+This is just a small effort of mine to try and help with bringing awareness to #blacklivesmatter.
+
+It's just a small website that has one button that sends you to a randomly picked page dedicated to helping the cause. The goal of this website is just to provide more information by sending users to other websites that are in the same branch of the cause.
 
 > If you have any concerns with the list please let me know and/or if you would like to add to the list. Submit the form https://forms.gle/9zidftAqgSo2Avb56
+
+> I am in no way shape or form associated with any websites on the list.
 
 ```js
 var sites = [
