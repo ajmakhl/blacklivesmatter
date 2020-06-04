@@ -10,9 +10,6 @@
     <div class="container">
       <div class="content">
         <h1>Black Lives Matter</h1>
-        <a href="javascript:void(0);" target="_blank" onclick="blessings()">
-          DO SOMETHING NOW
-        </a>
       </div>
       <div class="names">
         <p>AHMAUD ARBERY</p>
@@ -53,8 +50,14 @@
       "https://www.knowyourrightscamp.com/"
     ]
     function blessings() {
-      let blessing = parseInt(Math.random() * sites.length)
-      location.href = sites[blessing]
+      var blessing = parseInt(Math.random() * sites.length)
+      return sites[blessing]
     }
+    var element = document.createElement("a")
+    var elementText = document.createTextNode("DO SOMETHING NOW")
+    element.appendChild(elementText)
+    element.setAttribute("href", blessings())
+    element.setAttribute("target", "_blank")
+    document.querySelector(".content").appendChild(element)
   </script>
 </html>
