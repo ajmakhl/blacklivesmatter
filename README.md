@@ -1,8 +1,10 @@
 # Black Lives Matter
 
-I made this small component that allows your viewers to visit a page dedicated to helping the cause picked randomly by a list.
+I made this small component that allows your viewers to visit a page dedicated to helping the cause picked randomly by a list. The goal is to have a central point where people can get information faster.
 
 > If you have any concerns with the list please let me know.
+
+If you would like to add to the list. Submit the form https://forms.gle/9zidftAqgSo2Avb56
 
 ```js
 var sites = [
