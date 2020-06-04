@@ -56,6 +56,9 @@
     var elementText = document.createTextNode("DO SOMETHING NOW")
     element.appendChild(elementText)
     element.setAttribute("href", blessings())
+    element.onclick = function () {
+      window.location.reload()
+    }
     element.setAttribute("target", "_blank")
     document.querySelector(".content").appendChild(element)
   </script>
