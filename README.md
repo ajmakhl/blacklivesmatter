@@ -6,7 +6,6 @@ I made this small component that allows your viewers to visit a page dedicated t
 
 ```js
 var sites = [
-  "https://secure.actblue.com/donate/ms_blm_homepage_2019",
   "https://www.communityjusticeexchange.org/",
   "https://blacklivesmatters.carrd.co/",
   "https://www.youtube.com/watch?v=i_FE78X-qdY",
