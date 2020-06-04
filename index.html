@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Black Lives Matter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Black Lives Matter</h1>
+        <a href="#" target="_blank" onclick="blessings()">
+          DO SOMETHING NOW
+        </a>
+      </div>
+      <div class="names">
+        <p>AHMAUD ARBERY</p>
+        <p>RUMAIN BRISBON</p>
+        <p>PHILANDO CASTILE</p>
+        <p>WILLIAM CHAPMAN</p>
+        <p>KEITH CHILDRESS, JR</p>
+        <p>STEPHON CLARK</p>
+        <p>JOHN CRAWFORD III</p>
+        <p>GEORGE FLOYD</p>
+        <p>EZELL FORD</p>
+        <p>ERIC GARNER</p>
+        <p>BRENDON GLENN</p>
+        <p>OSCAR GRANT</p>
+        <p>FREDDIE GREY</p>
+        <p>AKAI GURLEY</p>
+        <p>BOTHAM JEAN</p>
+        <p>ATATIANA JEFFERSON</p>
+        <p>BETTIE JONES</p>
+        <p>TRAYVON MARTIN</p>
+        <p>ERIC REASON</p>
+        <p>TAMIR RICE</p>
+        <p>TONY ROBINSON JR</p>
+        <p>JONATHAN SANDERS</p>
+        <p>WALTER SCOTT</p>
+        <p>ALTON STERLING</p>
+        <p>BREONNA TAYLOR</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    var sites = [
+      "https://secure.actblue.com/donate/ms_blm_homepage_2019",
+      "https://www.communityjusticeexchange.org/",
+      "https://blacklivesmatters.carrd.co/",
+      "https://www.youtube.com/watch?v=i_FE78X-qdY",
+      "https://www.joincampaignzero.org/",
+      "https://www.knowyourrightscamp.com/"
+    ]
+    function blessings() {
+      let blessing = parseInt(Math.random() * sites.length)
+      location.href = sites[blessing]
+    }
+  </script>
+</html>
